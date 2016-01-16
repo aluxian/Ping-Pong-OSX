@@ -18,13 +18,14 @@
 		79E3C642199A043C0035AE1A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E3C640199A043C0035AE1A /* Main_iPad.storyboard */; };
 		79E3C645199A043C0035AE1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E3C644199A043C0035AE1A /* ViewController.m */; };
 		79E3C648199A043C0035AE1A /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E3C647199A043C0035AE1A /* MyScene.m */; };
-		79E3C64A199A043C0035AE1A /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E3C649199A043C0035AE1A /* Spaceship.png */; };
 		79E3C64C199A043D0035AE1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E3C64B199A043D0035AE1A /* Images.xcassets */; };
 		79E3C653199A043D0035AE1A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E3C652199A043D0035AE1A /* XCTest.framework */; };
 		79E3C654199A043D0035AE1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E3C629199A043C0035AE1A /* Foundation.framework */; };
 		79E3C655199A043D0035AE1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E3C62D199A043C0035AE1A /* UIKit.framework */; };
 		79E3C65D199A043D0035AE1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79E3C65B199A043D0035AE1A /* InfoPlist.strings */; };
 		79E3C65F199A043D0035AE1A /* Ping_Pong_5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E3C65E199A043D0035AE1A /* Ping_Pong_5Tests.m */; };
+		79E3C66A199A05520035AE1A /* harp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79E3C668199A05520035AE1A /* harp.mp3 */; };
+		79E3C66B199A05520035AE1A /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79E3C669199A05520035AE1A /* hit.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,13 +56,14 @@
 		79E3C644199A043C0035AE1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		79E3C646199A043C0035AE1A /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		79E3C647199A043C0035AE1A /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		79E3C649199A043C0035AE1A /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		79E3C64B199A043D0035AE1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		79E3C651199A043D0035AE1A /* Ping Pong 5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ping Pong 5Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E3C652199A043D0035AE1A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		79E3C65A199A043D0035AE1A /* Ping Pong 5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ping Pong 5Tests-Info.plist"; sourceTree = "<group>"; };
 		79E3C65C199A043D0035AE1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79E3C65E199A043D0035AE1A /* Ping_Pong_5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ping_Pong_5Tests.m; sourceTree = "<group>"; };
+		79E3C668199A05520035AE1A /* harp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = harp.mp3; sourceTree = "<group>"; };
+		79E3C669199A05520035AE1A /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +133,6 @@
 				79E3C644199A043C0035AE1A /* ViewController.m */,
 				79E3C646199A043C0035AE1A /* MyScene.h */,
 				79E3C647199A043C0035AE1A /* MyScene.m */,
-				79E3C649199A043C0035AE1A /* Spaceship.png */,
 				79E3C64B199A043D0035AE1A /* Images.xcassets */,
 				79E3C632199A043C0035AE1A /* Supporting Files */,
 			);
@@ -141,6 +142,8 @@
 		79E3C632199A043C0035AE1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				79E3C668199A05520035AE1A /* harp.mp3 */,
+				79E3C669199A05520035AE1A /* hit.mp3 */,
 				79E3C633199A043C0035AE1A /* Ping Pong 5-Info.plist */,
 				79E3C634199A043C0035AE1A /* InfoPlist.strings */,
 				79E3C637199A043C0035AE1A /* main.m */,
@@ -243,11 +246,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79E3C64A199A043C0035AE1A /* Spaceship.png in Resources */,
+				79E3C66B199A05520035AE1A /* hit.mp3 in Resources */,
 				79E3C64C199A043D0035AE1A /* Images.xcassets in Resources */,
 				79E3C642199A043C0035AE1A /* Main_iPad.storyboard in Resources */,
 				79E3C63F199A043C0035AE1A /* Main_iPhone.storyboard in Resources */,
 				79E3C636199A043C0035AE1A /* InfoPlist.strings in Resources */,
+				79E3C66A199A05520035AE1A /* harp.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				INFOPLIST_FILE = "Ping Pong 5/Ping Pong 5-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -423,6 +428,7 @@
 				INFOPLIST_FILE = "Ping Pong 5/Ping Pong 5-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -486,6 +492,7 @@
 				79E3C664199A043D0035AE1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79E3C665199A043D0035AE1A /* Build configuration list for PBXNativeTarget "Ping Pong 5Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +501,7 @@
 				79E3C667199A043D0035AE1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
